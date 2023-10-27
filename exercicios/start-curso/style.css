@@ -1,0 +1,80 @@
+:root {
+    --primary-color: rgb(234, 164, 164);
+    --secundary-color: dimgrey;
+    --tertiary-color: gainsboro;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto; 
+    background: #f7f7f7;
+    box-shadow: 5px 5px 0px var(--tertiary-color);
+    border-radius: 10px;
+    
+}
+.title {
+    background-color: antiquewhite;
+    color: var(--secundary-color);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 27px;
+    font-weight: normal;
+    text-align: center;
+  
+
+}
+
+.tipsforms {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background-color: white;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.formInput:focus {
+         border: 3px solid var(--primary-color) ;
+         outline: none;
+
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+}
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
